@@ -1,0 +1,6 @@
+# This is the parameter file for the medium model.
+# Let's change the initial temperature:
+TI 0.55
+# and the centrality
+CENTRMIN 60.
+CENTRMAX 80.
