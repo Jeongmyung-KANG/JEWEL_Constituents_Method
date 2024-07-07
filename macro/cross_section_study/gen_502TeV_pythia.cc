@@ -27,7 +27,7 @@ int main(int argc, char* argv[]) {
   TTree* tree; 
   tree = new TTree("treeName1"," tree Title 1");
   
-  const int   nEvents = 1000000; //Number of maximum events
+  const int   nEvents = 10000; //Number of maximum events
   const float ymax = 1.0; //Maximum rapidity  
   
   Pythia8::Pythia pythia;
