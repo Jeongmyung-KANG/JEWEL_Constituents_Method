@@ -14,7 +14,7 @@ all:
 	@echo "Usage: make XXX, where XXX.cc is your program"
 
 # Create an executable for one of the normal test programs
-%:	%.cc /Users/gangjeongmyeong/pythia8310/lib/libpythia8.a #dependencies
+%:	%.cc /Users/gangjeongmyeong/pythia8310/lib/libpythia8.so #dependencies
 	$(CXX) $(CXXFLAGS) $(ROOTCFLAGS) -I/Users/gangjeongmyeong/pythia8310/include \
 	$@.cc -o $@.exe \
 	-L/Users/gangjeongmyeong/pythia8310/lib -Wl,-rpath,/Users/gangjeongmyeong/pythia8310/lib -lpythia8 -ldl \
