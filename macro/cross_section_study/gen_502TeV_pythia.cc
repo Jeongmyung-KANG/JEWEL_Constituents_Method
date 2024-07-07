@@ -35,7 +35,7 @@ int main(int argc, char* argv[]) {
   pythia.readString("HardQCD:all = on");
   pythia.readString("Beams:idA = 2212");
   pythia.readString("Beams:idB = 2212 ");
-  pythia.readString("Beams:eCM = 200."); // 200 GeV 
+  pythia.readString("Beams:eCM = 5020."); // 5020 GeV 
   //pythia.readString("Tune:pp = 14"); //TUNED BY Monash 2014
   pythia.readString("PhaseSpace:pTHatMin = " + to_string(pthatmin));
   pythia.readString("PhaseSpace:pTHatMax = " + to_string(pthatmax));
